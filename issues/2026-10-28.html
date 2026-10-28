@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Linux 7.4 Merge Window, Systemd Adopts Rust, and KeePassXC 2.8.0 (2026-10-28)</title>
+<style>body{font:17px/1.6 system-ui;max-width:42rem;margin:2rem auto;padding:0 1rem}a{color:#0b57d0}</style>
+<body><h1>Linux 7.4 Merge Window, Systemd Adopts Rust, and KeePassXC 2.8.0 (2026-10-28)</h1><p>This week's updates highlight significant foundational progress across the Linux kernel and critical system utilities. Key developments include Rust integration in systemd leaf components, major driver hardening, and expanded hardware enablement.</p>
+<h3><a href="https://lwn.net/Articles/1102970/">Systemd adds support for components written in Rust</a></h3>
+<p>Systemd has merged initial support allowing new leaf components to be developed in Rust. Core system components will remain in C and existing code will not be ported, but this marks the beginning of Rust adoption within the project.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/DMA-BUF-IO-uring-Linux-7.4">Linux 7.4 Introduces DMA-BUF Support To I/O Path With IO_uring</a></h3>
+<p>Infrastructure providing DMA-BUF support within the kernel's I/O path via the IO_uring framework has been merged into Linux 7.4. This allows for zero-copy data transfers and more efficient buffer sharing across devices.
+<em>via Phoronix</em></p>
+<h3><a href="https://lwn.net/Articles/1102270/">KeePassXC 2.8.0 released</a></h3>
+<p>KeePassXC 2.8.0 has been released, transitioning the UI framework from Qt5 to Qt6. The update also delivers Auto-Type functionality for Wayland users on Linux, Polkit-based quick unlock, and remote database synchronization.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/Linux-7.4-NTFS3">NTFS3 Hardened In Linux 7.4 Against Corrupted Or Maliciously-Crafted NTFS Volumes</a></h3>
+<p>Paragon Software has submitted updates for Linux 7.4 hardening the in-kernel NTFS3 read/write driver. These improvements help protect host systems from crashes or exploits when mounting corrupted or maliciously crafted NTFS partitions.
+<em>via Phoronix</em></p>
+<h3><a href="https://lwn.net/Articles/1102061/">[$] The end of __get_user() and __put_user()</a></h3>
+<p>Linus Torvalds authored and merged a 48-part patch series targeting Linux 7.4 to retire the legacy __get_user() and __put_user() primitives. The series cleans up decades-old user-space memory access mechanisms in favor of modern, safer kernel alternatives.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF">Accelerating HTTP Web Servers With In-Kernel eBPF Deliver Up To 4.5x Throughput</a></h3>
+<p>A new research project called Beeper implements application-layer HTTP parsing and caching directly in the Linux kernel using eBPF. Benchmarks indicate that handling web requests via in-kernel eBPF can improve server throughput up to 4.5 times under high loads.
+<em>via Phoronix</em></p>
+<h3><a href="https://lwn.net/Articles/1102102/">[$] Python's experimental JIT to be removed</a></h3>
+<p>CPython's experimental JIT compiler, originally introduced in Python 3.13, is being slated for removal. The Python steering council paused ongoing work in the main branch pending a finalized PEP detailing its architectural direction.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/Linux-Core-MM-Tree">Linux 7.4 Begins Employing New "Core MM" Tree</a></h3>
+<p>Linux kernel maintainers have split core memory management patches out of Andrew Morton's traditional MM branch into a dedicated 'Core MM' tree starting in Linux 7.4. This new development tree aims to streamline the review and integration of fundamental virtual memory subsystem updates.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/Linux-7.4-HWMON">Linux 7.4 Expands Sensor Monitoring For More ASUS &amp; MSI Motherboards, New Minisforum Driver</a></h3>
+<p>The HWMON subsystem pull for Linux 7.4 incorporates a new Minisforum driver alongside expanded hardware monitoring support for multiple ASUS and MSI motherboards. Systems administrators running newer desktop and small-form-factor hardware will gain more reliable native sensor readouts.
+<em>via Phoronix</em></p>
+<h3><a href="https://lwn.net/Articles/1103212/">Robinson: Raspberry Pi 5 on Fedora</a></h3>
+<p>Fedora contributor Peter Robinson detailed support for Raspberry Pi 5 hardware, noting that Fedora 45 will work across all Raspberry Pi Model 5B variants. Early adopters on Fedora 44 currently require boot workarounds that are resolved by pulling the latest kernel and firmware packages.
+<em>via LWN.net</em></p><hr><p><a href="https://farvexer.github.io/signaldesk-site/">Archive</a></p></body></html>
