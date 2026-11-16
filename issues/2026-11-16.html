@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Linux, Tooling, and Self-Hosting Updates: Week in Review (2026-11-16)</title>
+<style>body{font:17px/1.6 system-ui;max-width:42rem;margin:2rem auto;padding:0 1rem}a{color:#0b57d0}</style>
+<body><h1>Linux, Tooling, and Self-Hosting Updates: Week in Review (2026-11-16)</h1><p>This week's roundup features significant infrastructure advancements, from integrated storage RAID implementations to virtualization performance improvements. Developers and self-hosters also gain notable updates in toolchains, hardware drivers, and terminal workflows.</p>
+<h3><a href="https://lwn.net/Articles/1107473/">Announcing XRAID: declustered parity RAID for zoned XFS</a></h3>
+<p>Christoph Hellwig announced the initial release of XRAID, bringing declustered parity RAID natively into the XFS file system. It specifically targets parity RAID on zoned devices like SMR drives while eliminating data integrity issues and offering write speeds up to 20 times faster on SSDs.
+<em>via LWN.net</em></p>
+<h3><a href="https://lwn.net/Articles/1106903/">Zellij 0.46 released</a></h3>
+<p>Zellij 0.46 has been released, introducing a standalone desktop terminal mode executable via the CLI alongside its traditional multiplexer capabilities. The update also adds a GUI settings screen while ensuring terminal sessions can still be shared seamlessly across environments.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/QEMU-VM-Memory-Tiering">Red Hat Working To Improve Memory Tiering For QEMU VMs To Save RAM</a></h3>
+<p>Red Hat engineers are developing enhanced memory tiering solutions for QEMU virtual machines to mitigate high RAM costs. The initiative aims to leverage NVMe SSDs to store VM memory across a wider variety of virtualization scenarios.
+<em>via Phoronix</em></p>
+<h3><a href="https://lwn.net/Articles/1107187/">Rust 1.100.0 released</a></h3>
+<p>The Rust language has reached version 1.100.0, introducing long-awaited features to its standard library and toolchain. Highlights include the stabilization of the 'never' type, initial core pieces of the Allocator API, and Cargo reporting for unused dependencies.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/Linux-7.5-NTFS-TMPFILE">Modern NTFS Driver Gaining O_TMPFILE Support With Linux 7.5</a></h3>
+<p>The modern open-source Linux NTFS read/write driver is gaining O_TMPFILE support ahead of the Linux 7.5 kernel cycle. This improvement enhances how the driver handles temporary file creation, building upon recent driver rewrites.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova">NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova</a></h3>
+<p>NVIDIA presented progress on upstreaming open-source vGPU capabilities built directly on top of the Nova Rust-based kernel driver. This effort aims to transition functionality away from out-of-tree drivers into the mainline Linux kernel.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/IBM-VMs-ARM64-On-s390">IBM Talks Up Their New Ability For Handling ARM64 Guest VMs on s390 Hardware</a></h3>
+<p>IBM and Arm's collaborative dual-architecture hardware effort has landed initial virtualization support, enabling ARM64 guest VMs on s390 hardware via Linux KVM. Initial patches have been merged into Linux 7.4 to facilitate cross-architecture workloads.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/Fwupd-2.1.10-Released">Fwupd 2.1.10 Brings Fixes, New Synaptics Touchpad Supported</a></h3>
+<p>Fwupd 2.1.10 is out as the newest stable release for Linux firmware updates, bringing bug fixes and hardware enablement for new Synaptics touchpads. It continues to streamline device management for system administrators handling peripheral firmware upgrades.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/Dasharo-ACPI-Fan-Control-Driver">Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves</a></h3>
+<p>Firmware consultancy 3mdeb posted a new Linux kernel driver designed to support fan curve adjustments on hardware running open-source Dasharo firmware. This provides open firmware users on select MSI and Gigabyte platforms direct OS-level thermal controls.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/Cloudflare-Kitesurf-Open-Source">Cloudflare Open Sources Kitesurf: Their Web Browser For AI Agents</a></h3>
+<p>Cloudflare has officially open-sourced Kitesurf, their dedicated stateless web browser engineered specifically for AI agents. The release offers developers a dedicated, lightweight browser architecture intended for programmatic and automated web interactions.
+<em>via Phoronix</em></p><hr><p><a href="https://farvexer.github.io/signaldesk-site/">Archive</a></p></body></html>
