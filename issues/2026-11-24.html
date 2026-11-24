@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Critical NGINX and GnuPG Flaws, PostgreSQL 19, and Kernel Updates (2026-11-24)</title>
+<style>body{font:17px/1.6 system-ui;max-width:42rem;margin:2rem auto;padding:0 1rem}a{color:#0b57d0}</style>
+<body><h1>Critical NGINX and GnuPG Flaws, PostgreSQL 19, and Kernel Updates (2026-11-24)</h1><p>This week's updates highlight urgent security fixes for NGINX and GnuPG alongside major database and language releases. Practitioners also have new deployment tools, data migration utilities, and system kernel developments to consider.</p>
+<h3><a href="https://lwn.net/Articles/1108362/">NGINX2Root: Remote Code Execution vulnerabilities in nginx</a></h3>
+<p>Security researchers have identified five critical vulnerabilities in the NGINX web server, dubbed NGINX2Root. The most severe flaw enables an unauthenticated attacker to execute arbitrary commands on servers running with HTTP/2 enabled. System administrators should review their NGINX deployments and check for upstream security patches immediately.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/GnuPG-GPGME-Critical">GnuPG's GPGME Affected By Critical Security Bug In Turn Affecting Mail Clients, Flatpak</a></h3>
+<p>A critical security flaw has been disclosed in GnuPG's GPGME (GnuPG Made Easy) library. Because this library underpins key infrastructure components, the bug impacts dependent software including Flatpak, Samba, and numerous email and XMPP clients. Operators should prioritize updating GPGME packages across client systems and servers.
+<em>via Phoronix</em></p>
+<h3><a href="https://lwn.net/Articles/1108561/">PostgreSQL 19 released</a></h3>
+<p>PostgreSQL 19 has officially launched, bringing major improvements for database operations and query planning. Key additions include non-disruptive table optimizations using the REPACK (CONCURRENTLY) command and plan stability management via the new pg_plan_advice extension. Database administrators can leverage these built-in tools to maintain production database performance without downtime.
+<em>via LWN.net</em></p>
+<h3><a href="https://lwn.net/Articles/1108555/">PHP 8.6.0 released</a></h3>
+<p>The PHP project has released version 8.6.0 for production use. This major update introduces a core polling API, a native clamp() function, a SortDirection enum, and a new \Time\Duration class. Developers and self-hosters running modern PHP applications can take advantage of these standardized utilities to streamline their codebases.
+<em>via LWN.net</em></p>
+<h3><a href="https://lwn.net/Articles/1108552/">Four PHP security releases including fixes for critical vulnerabilities</a></h3>
+<p>The PHP development team issued security updates across the 8.2, 8.3, 8.4, and 8.5 release branches. These updates resolve critical vulnerabilities that could lead to remote-code execution on affected servers. Hosting providers and infrastructure administrators should apply these point releases promptly to mitigate exploit risks.
+<em>via LWN.net</em></p>
+<h3><a href="https://www.phoronix.com/news/Zstandard-Zstd-1.6">Zstd 1.6 Released With Many Fixes, New Performance Optimizations</a></h3>
+<p>Zstandard 1.6.0 is out, marking the project's first major step forward in a year and a half since version 1.5.7. The update introduces numerous bug fixes alongside new performance optimizations for the widely used compression implementation. Anyone relying on Zstd in storage pipelines, backup routines, or system packaging should see faster and more reliable throughput.
+<em>via Phoronix</em></p>
+<h3><a href="https://www.phoronix.com/news/XNU-Linux">XNU Linux Lets macOS Userspace Processes Run On Linux</a></h3>
+<p>The XNU Linux project has emerged, allowing macOS user-space applications to execute directly on Linux. It functions by loading Apple's open-source XNU kernel as a Linux kernel module on an otherwise unmodified ARM64 Linux system. This tooling opens the door to cross-platform compatibility workflows and macOS environment virtualization on standard Linux hardware.
+<em>via Phoronix</em></p>
+<h3><a href="https://github.com/sebaandrada-cell/PcapAnalyzer">PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors</a></h3>
+<p>PcapAnalyzer has been released as a self-hosted tool designed for automated network traffic analysis. It includes 27 built-in problem detectors to surface configuration errors and anomalies from captured packet dumps. Homelabbers and network engineers can deploy it internally to diagnose complex connectivity issues without relying on external cloud services.
+<em>via Hacker News</em></p>
+<h3><a href="https://exitpath-ruddy.vercel.app/">Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365</a></h3>
+<p>ExitPath is an open-source tool built to help users migrate away from proprietary SaaS suites such as Slack, Notion, and Microsoft 365. The utility focuses on exporting and formatting hosted platform data into self-sovereign formats. It is an ideal resource for practitioners and organizations planning transitions to self-hosted collaboration stacks.
+<em>via Hacker News</em></p>
+<h3><a href="https://lwn.net/Articles/1109269/">CachyOS November 2026 release</a></h3>
+<p>CachyOS has delivered its November 2026 release, featuring the new 'cachyos-recovery' environment designed to revert broken system configurations. It also bundles version 2.0.0 of the CachyOS Package Installer and adds support for Easy Anti-Cheat (EAC) v2. The release provides a resilient rollback foundation for users operating cutting-edge, Arch-based systems.
+<em>via LWN.net</em></p><hr><p><a href="https://farvexer.github.io/signaldesk-site/">Archive</a></p></body></html>
